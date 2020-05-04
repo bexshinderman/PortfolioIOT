@@ -1,0 +1,67 @@
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class ="header">
+<h1> Project 1 - IOT <h1>
+<h2> By Bex Shinderman, 2020</h2>
+</div>
+</header>
+<nav>
+<div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="sprint1.html">Sprint 1</a>
+        <a href="sprint2.html">Sprint 2</a>
+       
+      </div>
+</nav>
+<div class = "pagehead">
+    </div>
+    <div class="text">
+
+   <!-- <div class="container">
+      <div class="row">
+
+
+        
+
+          <div class="col-xs-9">  -->
+
+       <p>
+ <h2>Sprint Three </h2>     
+
+ Sprint 3 was a real mixed bag. Dealing with the frustration of being stuck on the same task really began to affect me - I ended up seeking help from our supervisor as I struggled over what now in retrospect seems like a simple task. The ticket that I became stuck on was showing time data so users could easily determine the accuracy of the data. What set me back the most was understanding how data flowed from ttn, to our database and then to our webapp. I also struggled with time conversion, and learned the difference between how Python treats ISO time as opposed to epoch. 
+ <br><br>
+I ended up successfully getting time data to update in the react application every time a payload was sent through. My first merge request was met with a thorough code review which I have almost finished combing through. Problems included code redundancy, unnecessary files, a security leak and a misunderstanding about deleting files & merge requests. 
+<br><br>
+I have also begun contributing to sysadmin tasks now that I have (almost) overcome the issues I was experiencing with the heatmap. I started by familiarizing myself with the Orokonui server and was instantly confronted by the lack of diskspace, to the extent temp was so full tabbing errored. 
+<br><br>
+I made a ticket and did some diagnostic probing trying to find what was taking up the space. During a screen-sharing conference call the next day I was able to determine that there was over 20 gigabytes of unused docker images. My teammate and I combed through these simultaneously, him starting from the top and me from the bottom of the list. Another thing I noticed was that the Orokonui server was still pulling from the old GitLab server. I made a ticket and my team mate fixed it. Together, with space and pulling from the correct location we were able to start on making the Docker ingest externally accessible.
+<br><br>
+I am excited to work with more server-oriented issues in the coming sprints as this is where I feel my strengths are. Although the frustration of being stuck on the same room sensor web app ticket was unpleasant, I am pleased that I am seeing the task through as I’ve developed a more thorough understanding about using & displaying sensor data, using a python framework and also working on somebody else’s code for the first time.  In saying this, I am however worried about my contributions and need to allocate more time in future sprints into troubleshooting and keeping tabs on the project as a whole, not just what I’m working on.
+
+
+
+
+       </p>
+          </div>
+
+         
+
+
+        
+      </div>
+  </div>
+  
+   
+
+
+    
+</body>
+</html>
