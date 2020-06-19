@@ -55,11 +55,14 @@
    h2 {
        color: grey;
    }
-   blockqoute {
-    font-size: 17px;
+.block
+{
+font-size: 17px;
     font-family: "Candara";
-    padding: 50px;
-   }
+    
+    padding-left: 105px
+}
+  
    .container{
     width:33%;
     float:left;
@@ -73,3 +76,7 @@
  {
    margin-left: 75px;
  }
+.git
+{
+margin-left: 40%;
+}
