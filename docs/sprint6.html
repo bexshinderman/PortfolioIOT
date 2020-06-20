@@ -1,0 +1,75 @@
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class ="header">
+<h1> Project 1 - IOT <h1>
+<h2> &nbsp &nbsp  &nbsp &nbsp By Bex Shinderman, 2020</h2>
+</div>
+</header>
+<nav>
+<div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="sprint1.html">Sprint 1</a>
+        <a href="sprint2.html">Sprint 2</a>
+        <a href="sprint3.html">Sprint 3</a>
+		<a href="sprint4.html">Sprint 4</a>
+		<a href="sprint5.html">Sprint 5</a>
+		<a href="sprint5.html">Sprint 6</a>
+      </div>
+</nav>
+<div class = "pagehead">
+    </div>
+
+    <!--<div class="container">
+      <div class="row">
+
+stuff to talk about :
+* deleting build folder off gitlab 
+* writing documentation for deploying dockerized room sensor app - followed by B
+* Redeploying heatmap after first password change
+
+        
+
+          <div class="col-xs-9">-->
+<div class = "text">
+       <p>
+ <h2>Sprint Six .</h2>     
+ <br>  
+ <p>
+ 
+ There was a LOT going on during this sprint. I decided to wait untill our last meeting to write this entry so I could cover everything that happened. I have now put the Orokonui web app on the deoloyment server and my goal for the end of this sprint was to have both heatmap and Orokonui deployed on the production server, which as a team we achieved. I had been keeping a strict eye on the deployment portion of our kanban board & doing my best to keep up with peoples server, git & testing & merge requests.  
+ <br>   <br> 
+ Ironically on the last day I did something no sysadmin should ever do - I deleted a directory off of the server instead of first doing it locally, making a feature branch and merging it. Not only did I break the workflow, I also deleted the *wrong* directory which I thought was a duplicate and committed those changes. To top this off, our dev branch and other feature branches had been deleted without a group discussion the prior week. So, here I was on the last day of term aware that I had potentially wiped an entire semesters worth of progress on an entire project. My port of sanity the whole time was knowing we had a stable build on our development 
+<br>   <br> 
+I ended up needing my Project Managgr who helped supervise me revert to previous commits and showed me how to restore deleted branches. Luckily the team member who had deleted dev had a partial backup so within a few weird merge requests we once again had Master stable and up to date. This mistake could have been prevented by better communication and me not cutting corners on workflow! We also discovered that a merge went wrong about 3 weeks back, which was proof of how important good and thorough branch testing is for every single merge requets.
+
+<br>   <br> 
+I also tested the reverse towards the end of our last sprint now that there was documentation. Obviously it was already deployed on our development server but for those who had not worked on the reverse proxy, having documentatiton to follow was important. The documentation was a little hard to follow but I was able to get a successful output. It enjoyed testing the  proxy as I had a bit of a gap in my knowledge about how to apply DNS's. During this exercise I also learned to deal with lockfiles on linux, which is usually caused by a pause in updates.
+<br>   <br> 
+<img src="lockfiles.jpg" alt="scope">
+<br>   <br> 
+<img src="orokonui.jpg" alt="scope">
+
+       </p>
+          </div>
+
+         
+
+
+        
+      </div>
+  </div>
+  
+   
+
+
+    
+</body>
+</html>

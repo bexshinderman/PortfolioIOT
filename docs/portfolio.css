@@ -1,11 +1,14 @@
 .header {
+  padding-left: 180px;
   padding: 60px;
+  padding-bottom: 60px;
   text-align: center;
   background: grey;
   color: white;
   font-size: 30px;
   font-family: "Candara";
   height: 30px;
+  
   
 }
 
@@ -40,7 +43,13 @@
     text-align: center;
 
 }
-
+img
+{
+	border-radius: 8px;
+	max-width: auto;
+	max-height: auto;
+  
+}
 .circle {
     border-radius: 50%;
     height: 250px;
@@ -60,7 +69,7 @@
 font-size: 17px;
     font-family: "Candara";
     
-    padding-left: 105px
+    padding-left: 125px
 }
   
    .container{
