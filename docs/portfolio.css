@@ -46,8 +46,8 @@
 img
 {
 	border-radius: 8px;
-	max-width: auto;
-	max-height: auto;
+	max-width: 1200px;
+	max-height: 600px;
   
 }
 .circle {
